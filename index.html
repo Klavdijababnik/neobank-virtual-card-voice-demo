@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07121f" />
+    <title>NeoBank — Virtual Card Voice Demo</title>
+  </head>
+  <body>
+    <main class="shell">
+      <nav aria-label="Demo navigation"><a class="brand" href="#top">neo<span>bank</span><i>●</i></a><span class="pill">Fictional voice demo</span></nav>
+      <section class="hero" id="top">
+        <div class="eyebrow">VIRTUAL CARD · DEMO EXPERIENCE</div>
+        <h1>A clearer way to<br><em>explore card controls.</em></h1>
+        <p class="intro">Meet Nova, an AI guide for a fictional NeoBank virtual-card experience. Ask about illustrative spending controls and notifications—no account, payment, or real financial service is involved.</p>
+        <div class="trust"><span>✦ AI disclosed</span><span>✦ No sensitive data</span><span>✦ No real onboarding</span></div>
+      </section>
+      <section class="demo-grid" aria-label="Voice demo">
+        <article class="voice-card">
+          <div class="card-top"><div><div class="eyebrow">LIVE VOICE DEMO</div><h2>Talk to Nova</h2></div><div class="status"><b id="status-dot" data-state="idle"></b><span id="status-text" aria-live="polite">Ready to explore</span></div></div>
+          <div class="orb-zone" id="orb-zone" data-state="idle"><div class="rings"></div><div class="orb"><span>n</span></div><div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
+          <p id="helper-text" class="helper">Select “Start voice demo” and allow microphone access. Nova starts with a short introduction.</p>
+          <p class="timer" id="timer" hidden>00:00</p>
+          <p class="error" id="error-card" role="alert" hidden></p>
+          <div class="actions"><button class="primary" id="start-button">Start voice demo <span>→</span></button><div class="controls" id="controls" hidden><button class="secondary" id="mute-button" aria-pressed="false">Mute</button><button class="end" id="end-button">End demo</button></div></div>
+        </article>
+        <aside class="feature-panel"><div><div class="eyebrow">WHAT YOU CAN EXPLORE</div><h2>Designed for a safer conversation.</h2></div><ul><li><b>01</b><span><strong>Virtual-card concept</strong>Illustrative card options for everyday online spending.</span></li><li><b>02</b><span><strong>Spending controls</strong>Explore simulated limits and controls without creating anything.</span></li><li><b>03</b><span><strong>Instant notifications</strong>See how a fictional notification experience could be explained.</span></li></ul><p class="notice"><strong>Important:</strong> NeoBank is fictional. This is not a bank, financial advice, or a real product offer. Please do not share card, account, login, identity, or other sensitive data.</p></aside>
+      </section>
+      <footer><span>NeoBank fictional demonstration</span><span>Powered by ElevenLabs conversational voice technology</span></footer>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
